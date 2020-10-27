@@ -1,0 +1,3 @@
+peewee
+pymysql
+dbi-soap-client==0.12
