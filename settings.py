@@ -20,10 +20,10 @@ date_for_table = datetime.now().date().strftime('%Y%m%d')
 # путь до файла с состоянием
 db_file = 'db.txt'
 
-connection = pymysql.connect(host='dbt20.flexline.ru',
-                             user='sormuser',
-                             password='sormpass',
-                             db='lbilling',
+connection = pymysql.connect(host='@@@@@@@@@@@',
+                             user='@@@@@@@',
+                             password='@@@@@@',
+                             db='@@@@@@',
                              cursorclass=pymysql.cursors.DictCursor)
 
 # временные данные , p - еще не переданные Пашуковым
